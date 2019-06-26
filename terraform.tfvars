@@ -1,0 +1,11 @@
+aws_region 		      = "us-east-1"
+instance_type         = "t2.micro"
+instance_name         = "dev-instance"
+ami_id   		      = "ami-xxxxxx"
+subnet_id             = "subnet-xxxx"
+security_group        = "sg-xxxx"
+ssh_user_name         = "ec2-user"
+ssh_key_name          = "secret"
+ssh_key_path          = "/home/chaks/.key/secret.pem"
+instance_count        = 1
+dev_host_label        = "dev"
