@@ -1,0 +1,11 @@
+aws_region 		      = ""
+instance_type         = ""
+instance_name         = ""
+ami_id                = ""
+subnet_id             = ""
+security_group        = ""
+ssh_user_name         = ""
+ssh_key_name          = ""
+ssh_key_path          = ""
+instance_count        = 1
+dev_host_label        = ""
