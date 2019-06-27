@@ -1,6 +1,7 @@
 ---
 driver:
   name: "terraform"
+  root_module_directory: "."
 
 provisioner:
   name: "terraform"
@@ -16,4 +17,4 @@ suites:
     verifier:
       name: "awspec"
       patterns:
-      - "test/integration/default/default_test.rb"
+      - "test/unit/ec2/default_test.rb"
