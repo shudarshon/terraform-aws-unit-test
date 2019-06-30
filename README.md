@@ -13,6 +13,10 @@ this repository will contain infrastructure as code and rspec test cases for uni
 
  # how to run
 
+ at first, copy main.tf.env to main.tf file. then use terraform variable values according to module configuration,
+
+ `cp main.tf.env main.tf`
+
  install testing dependencies gems by running,
 
  `bundle install --path vendor/bundle`
